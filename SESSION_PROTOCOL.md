@@ -26,8 +26,31 @@ At the beginning of each new session, every agent must read:
 1. The highest numbered `sessions/session-###.md` file.
 2. `QA_REPORT.md`.
 3. `PLAN.md`.
+4. Its own `.agents/<agent-name>/AGENT.md` file.
+5. `.agents/README.md`.
 
 Agents then continue from the latest session handoff rather than restarting from older context.
+
+## `/new_agent`
+
+When the user says `/new_agent <name>` or asks to create another agent, Codex must follow `.agents/README.md` and `.agents/AGENT_TEMPLATE.md`.
+
+Each agent must have one folder and one canonical file:
+
+```text
+.agents/<agent-name>/AGENT.md
+```
+
+Every `AGENT.md` must include:
+
+1. `Current Session Summary`
+2. `General Skills`
+3. `Project-Specific Skills`
+4. `Do Not`
+5. `Owned Files`
+6. `Coordination Notes`
+
+Do not create separate `OWNED_FILES.md` files. Put owned files directly in `AGENT.md`.
 
 ## File Naming
 
