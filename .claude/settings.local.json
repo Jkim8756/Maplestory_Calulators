@@ -14,7 +14,12 @@
       "WebFetch(domain:masonym.dev)",
       "WebFetch(domain:maplehub.app)",
       "WebFetch(domain:maplestory-boss-crystal-calculator.vercel.app)",
-      "Bash(npm install *)"
+      "Bash(npm install *)",
+      "Bash(npx tsc *)",
+      "Bash(Get-ChildItem -Path \"C:\\\\Users\\\\jonat\\\\Desktop\\\\Projects\\\\Maplestory_Calulators\\\\src\" -Recurse)",
+      "Bash(Select-Object FullName)",
+      "Bash(npm run *)",
+      "Bash(node *)"
     ]
   }
 }

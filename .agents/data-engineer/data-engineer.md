@@ -21,7 +21,7 @@ Own all game data constants, TypeScript type definitions, and the data layer arc
 ---
 
 ## Session Start Checklist
-1. Read `QA_REPORT.md` — resolve any `data-engineer` open issues before new work
+1. Read `.agents/qa-qc/QA_REPORT.md` — resolve any `data-engineer` open issues before new work
 2. Verify game data against source wikis when updating values (digitaltq.com, maplestorywiki.net)
 3. Read `PLAN.md` §9 (Assumptions & Notes) for data source references
 

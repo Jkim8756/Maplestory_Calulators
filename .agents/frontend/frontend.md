@@ -4,10 +4,10 @@
 Design and implement all UI components. Responsible for how data is displayed, user interactions, layout, and visual correctness. Consume calculation results from `src/lib/` — do not re-implement math in components.
 
 ## Owns
-- `src/components/**/*.tsx`
-- `src/App.tsx`
-- `src/main.tsx`
-- `src/index.css`
+- `Frontend/components/**/*.tsx`
+- `Frontend/App.tsx`
+- `Frontend/main.tsx`
+- `Frontend/index.css`
 
 ## Does NOT Touch
 - `src/lib/` — calculation logic (Backend)
@@ -18,7 +18,7 @@ Design and implement all UI components. Responsible for how data is displayed, u
 ---
 
 ## Session Start Checklist
-1. Read `QA_REPORT.md` — resolve any `frontend` open issues before new work
+1. Read `.agents/qa-qc/QA_REPORT.md` — resolve any `frontend` open issues before new work
 2. Read `PLAN.md` §5 (Tool Specifications) and §4.2 (File Structure)
 3. Confirm `npm run dev` works and there are no TypeScript errors (`npx tsc --noEmit`)
 

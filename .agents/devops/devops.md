@@ -21,7 +21,7 @@ Manage project scaffold, build tooling, environment configuration, and SaaS CLI 
 ---
 
 ## Session Start Checklist
-1. Read `QA_REPORT.md` — resolve any `devops` open issues before new work
+1. Read `.agents/qa-qc/QA_REPORT.md` — resolve any `devops` open issues before new work
 2. Verify `npm run dev` starts and `http://localhost:5173` loads without errors
 3. Verify `npx tsc --noEmit` passes
 

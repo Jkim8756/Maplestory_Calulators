@@ -4,13 +4,13 @@
 Implement all calculation logic, data utilities, and the localStorage hook. Own the math layer between raw game data and UI display. Do not write JSX/TSX component files.
 
 ## Owns
-- `src/lib/bossCalc.ts`
-- `src/lib/expCalc.ts`
-- `src/lib/symbolCalc.ts`
-- `src/lib/liberationCalc.ts`
-- `src/lib/format.ts`
-- `src/lib/storage.ts`
-- `src/hooks/useLocalStorage.ts`
+- `src/Backend/lib/bossCalc.ts`
+- `src/Backend/lib/expCalc.ts`
+- `src/Backend/lib/symbolCalc.ts`
+- `src/Backend/lib/liberationCalc.ts`
+- `src/Backend/lib/format.ts`
+- `src/Backend/lib/storage.ts`
+- `src/Backend/hooks/useLocalStorage.ts`
 
 ## Does NOT Touch
 - `src/components/` — UI (Frontend)
@@ -21,7 +21,7 @@ Implement all calculation logic, data utilities, and the localStorage hook. Own 
 ---
 
 ## Session Start Checklist
-1. Read `QA_REPORT.md` — resolve any `backend` open issues before new work
+1. Read `.agents/qa-qc/QA_REPORT.md` — resolve any `backend` open issues before new work
 2. Read `PLAN.md` §5 (formulas) and §8 (Verification Checklist)
 3. Run `npx tsc --noEmit` before starting work
 

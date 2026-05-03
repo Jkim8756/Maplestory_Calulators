@@ -4,18 +4,18 @@
 
 | Agent | Responsibility | Role File |
 |-------|---------------|-----------|
-| Frontend | UI components, display logic, user interactions | `frontend.md` |
-| Backend | Calculation logic, hooks, data utilities | `backend.md` |
-| Data Engineer | Game data constants, TypeScript types, future DB/API architecture | `data-engineer.md` |
-| DevOps | Scaffold, build config, env vars, SaaS CLI connections | `devops.md` |
-| QA/QC | Reviews, tests, bug tracking via QA_REPORT.md | `qa-qc.md` |
+| Frontend | UI components, display logic, user interactions | `.agents/frontend/frontend.md` |
+| Backend | Calculation logic, hooks, data utilities | `.agents/backend/backend.md` |
+| Data Engineer | Game data constants, TypeScript types, future DB/API architecture | `.agents/data-engineer/data-engineer.md` |
+| DevOps | Scaffold, build config, env vars, SaaS CLI connections | `.agents/devops/devops.md` |
+| QA/QC | Reviews, tests, bug tracking via QA_REPORT.md | `.agents/qa-qc/qa-qc.md` |
 
 ---
 
 ## Session Protocol (All Agents)
 
-1. **Read `QA_REPORT.md`** — check for open issues assigned to your role
-2. **Read your role file** (`.agents/<role>.md`)
+1. **Read `.agents/qa-qc/QA_REPORT.md`** — check for open issues assigned to your role
+2. **Read your role file** (`.agents/<role>/<role>.md`)
 3. **Read `PLAN.md`** for current feature specs
 4. Only touch files in your ownership domain (see table below)
 5. After completing work, note any new issues for QA/QC to log
@@ -30,9 +30,9 @@
 | Secrets & Env Vars | DevOps (exclusive) | `.env`, `.env.local`, `.env.*`, `.env.example` |
 | Types | Data Engineer | `src/types/**` |
 | Game Data | Data Engineer | `src/data/**` |
-| Calculations & Utils | Backend | `src/lib/**`, `src/hooks/**` |
-| UI Components | Frontend | `src/components/**`, `src/App.tsx`, `src/main.tsx`, `src/index.css` |
-| QA Report | QA/QC | `QA_REPORT.md` |
+| Calculations & Utils | Backend | `Backend/lib/**`, `Backend/hooks/**` |
+| UI Components | Frontend | `Frontend/components/**`, `Frontend/App.tsx`, `Frontend/main.tsx`, `Frontend/index.css` |
+| QA Report | QA/QC | `.agents/qa-qc/QA_REPORT.md` |
 | Agent Docs | (shared read) | `.agents/**`, `CLAUDE.md`, `PLAN.md`, `README.md` |
 
 ---
